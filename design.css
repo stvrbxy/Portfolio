@@ -1,0 +1,81 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 11rem;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+
+}
+.detail h1{
+    font-size: 50px;
+    color: orange;
+    margin-bottom: 10px;
+
+}
+span{
+    color: black;
+}
+.detail p{
+    color: black;
+    line-height: 22px;
+    font-weight: bold;
+}
+.detail a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: orange;
+    background: #212121;
+    font-weight: bold;
+    padding: 4.5px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 30px 0px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: -8%;
+    bottom: 0;
+    padding: 80px 100px;
+}
